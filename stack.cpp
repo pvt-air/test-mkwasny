@@ -1,5 +1,5 @@
 /****************************************
-*	Implementacja stosu		*	
+*	Implementacja stosu	(stack)	*	
 *	www.algorytm.org		*
 *	Opracował Michał Knasiecki	*
 *****************************************/
