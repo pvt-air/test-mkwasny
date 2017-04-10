@@ -1,4 +1,4 @@
-/* Bubble sort code */
+/* Sortowanie bombelkowe*/
  
 #include <stdio.h>
  
