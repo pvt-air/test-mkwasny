@@ -1,4 +1,4 @@
-// sortowanie szybkie (quicksort)
+// Algorytm sortowania szybkiego (quicksort)
 // www.algorytm.org
  
 #include<iostream>
