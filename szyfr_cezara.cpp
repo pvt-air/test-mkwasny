@@ -1,6 +1,7 @@
 //Program szyfrujacy tekst znajdujacy sie w pliku za pomoca algorytmu Cezara
 //Program pobrano ze strony www.algorytm.org
 //Opracowal Krzysztof Mackowiak
+//IMO kiepski szyfr
  
 #include<stdio.h>
 #include<iostream.h>
