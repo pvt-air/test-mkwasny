@@ -1,5 +1,5 @@
 //generowanie liczb pseudolosowych
-//generator LFG - Lagged Fibonacci Generator
+//Generator LFG - Lagged Fibonacci Generator zwany rowniez:
 //Opóźniony Generator Fibonacci'ego
 //www.algorytm.org (c) 2008 Tomasz Lubinski
  
