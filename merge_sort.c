@@ -1,7 +1,7 @@
 // Sortowanie przez scalanie (mergesort)
 // Koszt algorytmu w każdym przypadku:
 // T(n)=n log n
-// Marcin Krajewski
+// Opracowane przez: Marcin Krajewski
 // www.algorytm.org
  
 #include <iostream>
