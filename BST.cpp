@@ -1,6 +1,5 @@
 //Drzewo BST - zrobione przez:
-//Mateusz Kwaśny
-//ablablablabla
+//Znany programista
 
 #include <stdio.h>
 #include <stdlib.h>
