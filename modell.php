@@ -1,5 +1,6 @@
 <?php
 session_start();
+/* plik znaleziony na dysku w pracowni laboratoryjnej */
 
 	class Model {
 		
