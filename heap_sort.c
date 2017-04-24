@@ -24,7 +24,7 @@ tab[i]=temp;
 heapify(tab,heap_size,largest);
 }
 }
-void budKopiec(int *tab, int rozmiar)
+void budujKopiec(int *tab, int rozmiar)
 {
 for (int i=rozmiar/2;i>0;i--)
 heapify(tab,rozmiar, i);
@@ -33,7 +33,7 @@ heapify(tab,rozmiar, i);
 void sort(int *tab, int rozmiar)
 {
 int temp;
-budKopiec(tab, rozmiar);
+budujKopiec(tab, rozmiar);
 for (int i=rozmiar;i>1;i--)
 {
 temp=tab[i];
