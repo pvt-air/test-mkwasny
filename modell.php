@@ -1,4 +1,5 @@
 <?php
+/* Nie wiem na co patrze*/
 session_start();
 /* plik znaleziony na dysku w pracowni laboratoryjnej */
 

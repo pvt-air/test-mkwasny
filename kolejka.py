@@ -1,4 +1,5 @@
 #kolejka - implementacja w Python
+#Kod reprezentujący Kolejkę
 #www.algorytm.org
  
 #!/usr/bin/python

@@ -1,8 +1,7 @@
 // Sortowanie przez scalanie (mergesort)
 // Koszt algorytmu w każdym przypadku:
 // T(n)=n log n
-// Wykonane przez:
-// Marcin Krajewski
+// Opracowane przez: Marcin Krajewski
 // www.algorytm.org
  
 #include <iostream>
@@ -30,7 +29,6 @@ tab[q++]=t[j++];
 while (i<=sr) tab[q++]=t[i++]; // Przeniesienie nie skopiowanych danych ze zbioru pierwszego w przypadku, gdy drugi zbiór się skończył
 }
  
-// Procedura sortowania tab[pocz...kon]
 void mergesort(int pocz, int kon)
 {
 int sr;

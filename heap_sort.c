@@ -1,6 +1,6 @@
 /*
 Mariusz Redwanz
-HeapSort - sortowanie stogowe
+Sortowanie stogowe
 www.algorytm.org
 */
  

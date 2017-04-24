@@ -1,5 +1,6 @@
 //Drzewo BST - zrobione przez:
-//Znany programista
+//Ktoś z www.algorytm.org
+//ablablablabla
 
 #include <stdio.h>
 #include <stdlib.h>

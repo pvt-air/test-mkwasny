@@ -2,6 +2,7 @@
 //Implementacja w jezyku C
 //Program pobrano ze strony www.algorytm.org
 //Opracowal Krzysztof Mackowiak
+//IMO kiepski szyfr
  
 #include<stdio.h>
 #include<iostream.h>
