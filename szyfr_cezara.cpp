@@ -1,4 +1,5 @@
 //Program szyfrujacy tekst znajdujacy sie w pliku za pomoca algorytmu Cezara
+//Implementacja w jezyku C
 //Program pobrano ze strony www.algorytm.org
 //Opracowal Krzysztof Mackowiak
  
