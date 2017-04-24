@@ -1,4 +1,5 @@
-// sortowanie szybkie (quicksort)
+// Sortowanie szybkie (quicksort)
+// Implementacja w jezyku C
 // www.algorytm.org
  
 #include<iostream>
