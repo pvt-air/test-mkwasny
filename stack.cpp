@@ -1,6 +1,6 @@
 /****************************************
-*	Implementacja stosu		*	
-*	www.algorytm.org		*
+*	Implementacja stosu			*	
+*	www.algorytm.org			*
 *	Opracował Michał Knasiecki	*
 *****************************************/
 
@@ -11,9 +11,9 @@
 #include <string.h>
 struct stos
 	{
-   char dane[10];
-   stos *ref;
-   };
+	char dane[10];
+	stos *ref;
+	};
 
    stos *pointer;
    stos *old;
@@ -31,10 +31,10 @@ void delete_node(stos *node)
 if (node!=NULL)
 	{
 	old=node->ref;
-   printf("Usunieto: %s\n",node->dane);
+	printf("Usunieto: %s\n",node->dane);
 	delete node;
 	pointer=old;
-   } else printf("Stos jest pusty\n");
+	} else printf("Stos jest pusty\n");
 }
 void print_stack()
 {
@@ -43,8 +43,8 @@ old=pointer;
 while (old!=NULL)
 	{
 	cout <<old->dane<<endl;
-   old=old->ref;
-   }
+	old=old->ref;
+	}
 }
 void delete_all(void)
 {
@@ -61,11 +61,11 @@ printf("# - usun ostatni, $ - wypisz dane, & - usun wszystko i zakoncz\n");
 
 do
 	{
-   printf("Dane: ");
+	printf("Dane: ");
 	scanf("%s",dane);
-   if (strcmp(dane,"&")!=0)
-   if (strcmp(dane,"#")==0) delete_node(pointer); else
-   if (strcmp(dane,"$")==0) print_stack(); else add_stack(dane);
+	if (strcmp(dane,"&")!=0)
+	if (strcmp(dane,"#")==0) delete_node(pointer); else
+	if (strcmp(dane,"$")==0) print_stack(); else add_stack(dane);
 	}
 while (strcmp(dane,"&")!=0);
 delete_all();
