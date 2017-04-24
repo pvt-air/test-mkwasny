@@ -1,4 +1,4 @@
-#kolejka
+#kolejka - implementacja w Python
 #www.algorytm.org
  
 #!/usr/bin/python
@@ -11,7 +11,7 @@ def __init__(self, val=0, poprzedni=None): #konstruktor musi zawierać
 # w kolejce
 self.v=val
 self.nastepny=None
-if poprzedni!=None: #je?li istnieje poprzedni:
+if poprzedni!=None: #jeśli istnieje poprzedni:
 poprzedni.nastepny=self #ustawia, że następujący po nim jest
 # aktualny
 class Kolejka: #klasa Kolejki
