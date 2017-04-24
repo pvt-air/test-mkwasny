@@ -1,4 +1,4 @@
-/* Bubble sort code */
+// Sortowanie babelkowe
  
 #include <stdio.h>
  
