@@ -1,20 +1,20 @@
-//generowanie liczb pseudolosowych
-//generator LFG - Lagged Fibonacci Generator
+//Generowanie liczb pseudolosowych
+//Generator LFG - Lagged Fibonacci Generator
 //Opóźniony Generator Fibonacci'ego
 //www.algorytm.org (c) 2008 Tomasz Lubinski
  
 #include "stdio.h"
  
-/* Definicje wspolczynnikow j, k oraz m */
+// Definicje wspolczynnikow j, k oraz m 
 #define J 24
 #define K 55
 #define M 0x100000000ul /* 2^32 */
  
  
-/* Definicja wspolczynnika a dla generatora LCG dla zainicjowania tablicy */
+// Definicja wspolczynnika a dla generatora LCG dla zainicjowania tablicy
 #define A 69069
  
-/* Tablica x - rejestr cykliczny oraz jej aktualny wskaznik */
+// Tablica x - rejestr cykliczny oraz jej aktualny wskaznik
 unsigned long long x[K];
 unsigned long i;
  
